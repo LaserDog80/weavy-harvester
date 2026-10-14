@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Weavy Harvester",
+  "version": "0.1.0",
+  "description": "Harvest a Weavy board graph, generation metadata and referenced media into one lineage ZIP.",
+  "permissions": ["scripting", "downloads"],
+  "host_permissions": ["https://app.weavy.ai/*", "https://media.weavy.ai/*"],
+  "action": {
+    "default_title": "Harvest Weavy board",
+    "default_popup": "popup.html"
+  }
+}

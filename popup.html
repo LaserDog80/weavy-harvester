@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weavy Harvester</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Weavy Harvester</h1>
+  <p>Archive the open board for lineage tracing.</p>
+  <label><input type="checkbox" id="media" checked> Download media</label>
+  <button id="harvest" type="button">Harvest board</button>
+  <p id="status" role="status" aria-live="polite">Open a board at app.weavy.ai.</p>
+  <p class="hint">Keep this popup open until Chrome finishes the ZIP download. Large boards need memory and time.</p>
+  <script src="extractor.js"></script>
+  <script src="zip.js"></script>
+  <script src="archive.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

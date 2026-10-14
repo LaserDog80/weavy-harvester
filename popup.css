@@ -1,0 +1,12 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; }
+body { width: 320px; margin: 20px; background: #171b22; color: #f2f3f5; }
+h1 { font-size: 21px; margin: 0 0 8px; }
+p { line-height: 1.45; }
+label { display: block; margin: 20px 0 12px; cursor: pointer; }
+input { accent-color: #c3ab61; }
+button { width: 100%; padding: 12px; border: 0; border-radius: 6px; background: #c3ab61; color: #171b22; font: inherit; font-weight: 650; cursor: pointer; }
+button:disabled { opacity: .55; cursor: wait; }
+button:focus-visible, input:focus-visible { outline: 2px solid white; outline-offset: 4px; }
+#status { overflow-wrap: anywhere; }
+#status[data-error="true"] { color: #ffb3a9; }
+.hint { color: #b3bac6; font-size: 12px; }
